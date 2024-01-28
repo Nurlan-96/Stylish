@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    text-align: center;
+    padding: 13rem 20px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.first h1{
+    font-size: 5.5rem;
+    margin-bottom: 15px;
+}
+.first h3{
+    font-size: 2rem;
+    margin-bottom: 45px;
+    font-style:italic;
+}
+.first a {
+background-color: #1D809F;
+text-decoration: none;
+padding: 15px 35px;
+color: white;
+border-radius: 6px;
+transition: .8s;
+}
+.first > a:hover {
+    background-color: #0b495c;
+}
+.second{
+    text-align: center;
+    padding: 8rem 0;
+}
+.second p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+.second h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.second > a{
+    background-color: black;
+    color:#fff;
+    text-decoration: none;
+    padding: 15px 34px;
+    border-radius: 6px;
+    transition: .8s;
+}
+.second > a:hover {
+    background-color: #424649;
+}
+#splash{
+    color: #1D809F;
+}
+
+.third {
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    padding: 13rem 0;
+    background-position: center 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.third h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.third a{
+background-color: #1d809f;   
+color: #fff;
+text-decoration: none;
+padding: 15px 34px;
+border-radius: 6px;
+transition: .8s;
+}
+
+.third > a:hover {
+    background-color: #0b495c;
+}
+
+.fourth{
+    text-align: center;
+    padding: 8rem 0;
+    background-color: #1D809F;
+}
+.fourth h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#left-button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px 34px;
+    border-radius: 3px;
+    margin-right: 1.5rem;
+    transition: .8s;
+}
+#right-button {
+    display: inline-block;
+    background-color: black;
+    color:#fff;
+    text-decoration: none;
+    padding: 15px 34px;
+    border-radius: 3px;
+    transition: .8s;
+}
+
+#left-button:hover {
+    background-color: gray;
+}
+
+#right-button:hover {
+    background-color: #424649;
+}
